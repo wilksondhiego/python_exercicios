@@ -1,0 +1,6 @@
+3. Explique a diferença entre 'import modulo' e 'from modulo import funcao'
+Quando usamos "import modulo", estamos importando o módulo completo, então precisamos escrever o nome do módulo junto da função. Já com "from modulo import funcao", importamos apenas uma função específica e podemos usá-la diretamente, sem escrever o nome do módulo antes.
+
+4. Identifique o erro: criar um arquivo chamado math.py
+O erro é que o arquivo math.py tem o mesmo nome da biblioteca padrão math do Python.
+Isso causa conflito na importação do módulo.
